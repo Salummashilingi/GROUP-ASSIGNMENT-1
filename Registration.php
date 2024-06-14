@@ -66,19 +66,19 @@
     ?>
     <form action="" method="post">
         <label for="firstname">First Name:</label>
-        <input type="text" id="firstname" name="firstname" required><br><br>
+        <input type="text" id="firstname" name="firstname" placeholder="Enter your first name" required><br><br>
 
         <label for="lastname">Last Name:</label>
-        <input type="text" id="lastname" name="lastname" required><br><br>
+        <input type="text" id="lastname" name="lastname" placeholder="Enter your last name" required><br><br>
 
         <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required><br><br>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
 
         <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required><br><br>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required><br><br>
 
         <label for="confirm_password">Confirm Password:</label>
-        <input type="password" id="confirm_password" name="confirm_password" required><br><br>
+        <input type="password" id="confirm_password" name="confirm_password" placeholder="Confirm your password" required><br><br>
 
         <button type="submit">Register</button>
     </form>
